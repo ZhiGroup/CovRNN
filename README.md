@@ -26,6 +26,11 @@ In this Repository, we are sharing:
 
 ![image](https://user-images.githubusercontent.com/25290490/135732106-cc269e56-93c3-4222-ab8c-87d0f8f5acd0.png)
 
+## Folder structure
+#### [Pretrained Model Usage] (https://github.com/ZhiGroup/CovRNN/tree/main/Pretrained_Models_usage) is described in this folder, including model fine-tuning
+This folder also includes the CRWD pretrained models and their state dictionaries
+
+
 ## Citation
 
 Rasmy L, Nigo M, Kannadath BS, Xie Z, Mao B, Patel K, Zhou Y, Zhang W, Ross AM, Xu H, Zhi D. CovRNN-A recurrent neural network model for predicting outcomes of COVID-19 patients: model development and validation using EHR data. medRxiv. 2021 Sep 29
