@@ -20,14 +20,28 @@ In this Repository, we are sharing:
 
 (ii) Our comprehensive model development framework to train a new predictive model using your own data.
 
-## Results
+### Results
 
 ![image](https://user-images.githubusercontent.com/25290490/135732094-a6d48662-f617-4ffa-bb02-73ee4d1e61f8.png)
 
 ![image](https://user-images.githubusercontent.com/25290490/135732106-cc269e56-93c3-4222-ab8c-87d0f8f5acd0.png)
 
+
+## Dependencies
+
+    Pytorch version 1.7
+    Pandas
+    Numpy
+    sklearn
+    lifelines
+    sksurv
+    Matplotlib 
+    tqdm
+    Python: 3.7+
+
+
 ## Folder structure
-#### [Pretrained Model Usage] (https://github.com/ZhiGroup/CovRNN/tree/main/Pretrained_Models_usage) is described in this folder, including model fine-tuning
+#### [Pretrained Model Usage](https://github.com/ZhiGroup/CovRNN/tree/main/Pretrained_Models_usage) is described in this folder, including model fine-tuning
 This folder also includes the CRWD pretrained models and their state dictionaries
 
 
