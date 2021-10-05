@@ -16,7 +16,7 @@ Lrasmy@Zhilab  Jan 2021
 #
 # Usage: feed this script with Case file and Control files each is just a three columns like pt_id | medical_code | visit_date and execute like:
 #
-# python data_preprocessing_v4.py <Case File> <Control File> <types dictionary if available,otherwise use 'NA' to build new one> <output Files Prefix> <path and prefix to pts file if available,otherwise use 'NA' to build new one>
+# python data_preprocessing_v5.py <Data File> <labels File> <types dictionary if available,otherwise use 'NA' to build new one> <output Files Prefix> <path and prefix to pts file if available,otherwise use 'NA' for random slit into 7:1:2, or 'nosplit' for avoid splitting>
 # you can optionally activate <case_samplesize> <control_samplesize> based on your cohort definition
 # This file will later split the data to training , validation and Test sets of ratio
 # Output files include
