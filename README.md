@@ -14,11 +14,9 @@ We showed that deep learning-based models can achieve state-of-the-art predictio
 ![image](https://user-images.githubusercontent.com/25290490/135629163-e11d8e9f-d88c-4ac6-8b84-9c993ecd25ed.png)
 
 
-In this Repository, we are sharing:
+In this Repository, we are sharing the pretrained CovRNN trained on more than 170,000 COVID-19 patients extracted from the CRWD, so you can fine-tune our CovRNN pre-trained model on a sample of your local data, and use it.
 
-(i) The pretrained CovRNN trained on more than 170,000 COVID-19 patients extracted from the CRWD, so you can fine-tune our CovRNN pre-trained model on a sample of your local data, and use it.
-
-(ii) Our comprehensive model development framework to train a new predictive model using your own data.
+A tutorial showing an example on how to use our comprehensive model development framework to train a new predictive model using your own data is available on https://github.com/ZhiGroup/pytorch_ehr/tree/ACM_BCB-Tutorial , this tutorial is using MIMIC IV data, and use very basic code to define the cohort just as an example. We highly recommend a more regrious definition of the cohort cases and controls as described in our paper.
 
 ### Results
 
