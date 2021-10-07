@@ -203,7 +203,6 @@ if __name__ == '__main__':
     if pts_file_pre=='nosplit':
       nptfile = outFile +'.pts.all'
       pickle.dump(pt_list, open(nptfile, 'wb'),protocol=2)    
-      train_set_full = [fset[i] for i in train_indices]
       filename_all=outFile+'.combined.all'    
       pickle.dump(fset, open(filename_all, 'wb'), -1)
     
