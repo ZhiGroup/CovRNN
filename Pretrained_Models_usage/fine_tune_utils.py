@@ -34,7 +34,6 @@ from termcolor import colored
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
-%matplotlib inline
 import plotly as py
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 init_notebook_mode(connected=True)
